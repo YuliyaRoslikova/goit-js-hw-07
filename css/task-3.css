@@ -1,0 +1,33 @@
+body {
+    padding: 24px;
+    color: #2E2F42;
+    font-family: Montserrat;
+}
+
+#name-input {
+    font-family: inherit;
+    color: inherit;
+    width: 360px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+#name-input:hover {
+    border: 1px solid #000;
+}
+
+#name-input:active {
+    border: 1px solid #808080;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+}

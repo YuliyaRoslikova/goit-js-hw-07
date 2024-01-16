@@ -1,0 +1,73 @@
+button {
+    padding: 8px 16px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: 1px solid #4E75FF;
+    border-radius: 8px;
+    background-color: #4E75FF;
+    outline: none;
+}
+
+button:hover {
+    background-color: #6C8CFF;
+    border: 1px solid #6C8CFF;
+}
+
+button[data-destroy] {
+    background-color: #FF4E4E;
+    border: 1px solid #FF4E4E;
+}
+
+button[data-destroy]:hover {
+    background-color: #FF7070;
+    border: 1px solid #FF7070;
+}
+
+input {
+    display: block;
+    text-align: center;
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: inherit;
+    font-family: inherit;
+}
+
+input:hover {
+    border: 1px solid #000;
+}
+
+input:active {
+    border: 1px solid #808080;
+}
+
+#controls, 
+#boxes {
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    background-color: #F6F6FE;
+}
+
+#controls {
+margin-bottom: 16px;
+}
+
+#boxes {
+    align-items: flex-start;
+}
+
+.box {
+    flex-shrink: 0;
+}

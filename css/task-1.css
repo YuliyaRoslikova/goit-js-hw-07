@@ -1,0 +1,46 @@
+ul,li {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul#categories {
+    width: 440px;
+    padding: 24px;
+}
+
+.item {
+    border-radius: 8px;
+    background-color: #F6F6FE;
+    padding: 16px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.item-title {
+    color: #2E2F42;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.96px;
+    margin: 0 0 16px;
+}
+
+.item-list li {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    color: #2e2f42;
+    padding: 8px 16px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.item-list li:not(:last-child) {
+    margin-bottom: 8px;
+}
