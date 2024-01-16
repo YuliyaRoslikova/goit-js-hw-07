@@ -1,5 +1,6 @@
 .gallery {
     margin: 0 auto;
+    max-width: 1440px;
     padding: 100px;
     display: flex;
     flex-wrap: wrap;
