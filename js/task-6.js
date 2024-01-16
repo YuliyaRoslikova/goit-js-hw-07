@@ -22,6 +22,7 @@ function createBoxes(amount) {
   
 function onDestroyBoxes() {
   boxesContainer.innerHTML = '';
+  input.value = '';
 }
   
 function onCreateBoxes() {
@@ -31,7 +32,7 @@ function onCreateBoxes() {
     return;
   }
   
-  createBoxes(inputValue)
+  createBoxes(inputValue);
   input.value = '';
 }
 

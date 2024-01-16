@@ -28,7 +28,8 @@ ul#categories {
     margin: 0 0 16px;
 }
 
-.item-list li {
+.item li {
+    display: block;
     width: 360px;
     height: 40px;
     border-radius: 4px;
@@ -41,6 +42,6 @@ ul#categories {
     letter-spacing: 0.64px;
 }
 
-.item-list li:not(:last-child) {
+.item li:not(:last-child) {
     margin-bottom: 8px;
 }
