@@ -30,9 +30,8 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 
-images.forEach(image => {
-  const listItem = document.createElement('li');
-  listItem.classList.add('gallery-item');
-  listItem.insertAdjacentHTML('beforeend', `<img class="gallery-img" width="360" height="300" src="${image.url}" alt="${image.alt}">`);
-  gallery.appendChild(listItem);
-});
+const galleryHtml = images.reduce((html, image) => {
+  return html += `<li class="gallery-item"><img class="gallery-img" width="360" height="300" src="${image.url}" alt="${image.alt}"></li>`;
+}, '');
+
+gallery.insertAdjacentHTML('beforeend', galleryHtml);
